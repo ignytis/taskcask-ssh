@@ -6,7 +6,7 @@ from fabric import Connection
 from taskcask_common.environment import BaseEnvironment
 from taskcask_common.executor import BaseExecutor
 from taskcask_common.task import Task
-from taskcask.stdlib.task_templates.system_command import SystemCommandTaskTemplate
+from taskcask_common.task_templates.system_command import SystemCommandTaskTemplate
 from ..environments import SshEnvironment
 
 

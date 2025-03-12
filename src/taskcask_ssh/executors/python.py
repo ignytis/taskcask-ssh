@@ -13,7 +13,7 @@ from taskcask_common.executor import BaseExecutor
 from taskcask_common.task import Task
 from taskcask_common.utils.sys import args_to_args_and_kwargs
 
-from taskcask.stdlib.task_templates.python import PythonTaskTemplate
+from taskcask_common.task_templates.python import PythonTaskTemplate
 
 
 class PythonExecutor(BaseExecutor):
